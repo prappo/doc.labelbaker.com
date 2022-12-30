@@ -1,15 +1,11 @@
 {
-  "index": "Introduction",
+  "index": "Home",
   "features": "Features",
-  "how-to-use": "How to use",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact",
-    "type": "page",
-    "href": "https://twitter.com/prappo_p",
-    "newWindow": true
-  }
+  "how-to-use":"How to use",
+  "how-does-it-work":"How does it work",
+  "editor":"Editor",
+  "data":"Data",
+  "templates":"Templates",
+  "layouts":"Layouts",
+  "print":"Print"
 }
