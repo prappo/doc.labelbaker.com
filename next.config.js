@@ -9,5 +9,4 @@ module.exports = {
     unoptimized: true,
   },
   assetPrefix: './',
-  trailingSlash: true,
 };
