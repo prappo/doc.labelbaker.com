@@ -3,9 +3,6 @@
   "interface":"Interface",
   "features": "Features",
   "how-does-it-work":"How does it work",
-  "editor":"Editor",
-  "data":"Data",
-  "templates":"Templates",
-  "layouts":"Layouts",
+  "data-mapping":"Data Mapping",
   "print":"Print"
 }
