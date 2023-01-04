@@ -1,6 +1,7 @@
 # Configuration
 
 After successful installation, you will find the config.php file in the root folder. 
+This file is responsible for all the configuration of this application.
 
 ## Authentication system
 
@@ -13,6 +14,17 @@ If you want to turn on the user authentication system then
 * Then go to your application settings tab and copy `Domain` and `Client ID`. 
 * Now go to your config.php file and paste the values against `data-auth-domain` and `data-auth-id`
 * And lastly, change `enableAuth` from false to true.
+
+## Assets API configuration.
+
+We have used https://iconfinder.com API to search for icons/assets functionality. 
+You just need an `API Key` and you can collect it for free from https://iconfinder.com.
+You need to follow these simple steps to get the API key.
+* Create an account at https://iconfinder.com. 
+* Then go here https://www.iconfinder.com/account/applications.
+* Then create an app and copy the API key.
+* Put the API key against `icoFidnerKey` in the config.php file.
+
 
 
 
