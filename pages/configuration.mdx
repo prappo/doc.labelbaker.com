@@ -1,0 +1,19 @@
+# Configuration
+
+After successful installation, you will find the config.php file in the root folder. 
+
+## Authentication system
+
+We have used auth0 for user authentication and management system. 
+If you want to turn on the user authentication system then 
+
+* Go to https://auth0.com/ and create an account.
+* After login in to your auth0 account go to Application > Create application.
+* Then give your application a name and choose `Single Page Web Applications` and click create button.
+* Then go to your application settings tab and copy `Domain` and `Client ID`. 
+* Now go to your config.php file and paste the values against `data-auth-domain` and `data-auth-id`
+* And lastly, change `enableAuth` from false to true.
+
+
+
+
